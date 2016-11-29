@@ -165,11 +165,11 @@
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 280,
+                        "startOffset": 335,
                         "endColumn": 45,
-                        "endOffset": 321
+                        "endOffset": 376
                     }
                 }
             },
@@ -336,11 +336,11 @@
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 90,
+                        "startOffset": 145,
                         "endColumn": 52,
-                        "endOffset": 138
+                        "endOffset": 193
                     }
                 }
             },
@@ -351,6 +351,25 @@
                     "startOffset": 1255,
                     "endColumn": 54,
                     "endOffset": 1305
+                },
+                "from": {
+                    "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 90,
+                        "endColumn": 54,
+                        "endOffset": 140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endColumn": 54,
+                    "endOffset": 1360
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
@@ -365,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1310,
+                    "startOffset": 1365,
                     "endColumn": 56,
-                    "endOffset": 1362
+                    "endOffset": 1417
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
@@ -384,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1367,
+                    "startOffset": 1422,
                     "endColumn": 65,
-                    "endOffset": 1428
+                    "endOffset": 1483
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
@@ -403,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1433,
+                    "startOffset": 1488,
                     "endColumn": 58,
-                    "endOffset": 1487
+                    "endOffset": 1542
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
@@ -422,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1492,
+                    "startOffset": 1547,
                     "endColumn": 51,
-                    "endOffset": 1539
+                    "endOffset": 1594
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
@@ -441,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1544,
+                    "startOffset": 1599,
                     "endColumn": 53,
-                    "endOffset": 1593
+                    "endOffset": 1648
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
@@ -460,39 +479,20 @@
             },
             {
                 "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 1598,
-                    "endColumn": 41,
-                    "endOffset": 1635
-                },
-                "from": {
-                    "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 238,
-                        "endColumn": 41,
-                        "endOffset": 275
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1640,
-                    "endColumn": 94,
-                    "endOffset": 1730
+                    "startOffset": 1653,
+                    "endColumn": 41,
+                    "endOffset": 1690
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 143,
-                        "endColumn": 94,
-                        "endOffset": 233
+                        "startOffset": 293,
+                        "endColumn": 41,
+                        "endOffset": 330
                     }
                 }
             },
@@ -500,9 +500,28 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1735,
+                    "startOffset": 1695,
+                    "endColumn": 94,
+                    "endOffset": 1785
+                },
+                "from": {
+                    "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/values-sw600dp/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 94,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1790,
                     "endColumn": 62,
-                    "endOffset": 1793
+                    "endOffset": 1848
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/values-sw600dp/values-sw600dp.xml",
@@ -517,12 +536,12 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1798,
-                    "endLine": 32,
+                    "startOffset": 1853,
+                    "endLine": 33,
                     "endColumn": 12,
-                    "endOffset": 1975
+                    "endOffset": 2030
                 },
                 "from": {
                     "file": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/values-sw600dp/values-sw600dp.xml",

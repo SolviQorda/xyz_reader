@@ -9,28 +9,17 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fitsSystemWindows="true"
-
-    >
+        android:layout_height="@dimen/appbar_height"
+        android:elevation="@dimen/appbar_elevation"
+        android:fitsSystemWindows="true">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             android:layout_width="match_parent"
-            android:fitsSystemWindows="true"
-
             android:layout_height="match_parent"
-            app:contentScrim="@color/theme_primary_dark"
+            android:background="@color/theme_primary_dark"
         >
-            <!--<FrameLayout-->
-            <!--android:id="@+id/toolbar_container"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="112dp"-->
-            <!--android:elevation="8dp">-->
-
-            <!--</FrameLayout>-->
-
 
             <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -39,38 +28,41 @@
             android:layout_marginLeft="@dimen/list_toolbar_side_margin"
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/appbar_height"
+            android:layout_height="?actionBarSize"
+            android:elevation="@dimen/appbar_elevation"
+            android:layout_gravity="bottom|center_horizontal"
             >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/icon_margin"
+                    android:src="@drawable/logo"
+                    android:contentDescription="@string/app_name" />
             </android.support.v7.widget.Toolbar>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_scrollFlags="scroll|enterAlways"
-                android:padding="@dimen/detail_metabar_vert_padding"
-                android:src="@drawable/logo"
-                android:contentDescription="@string/app_name" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <!--<android.support.v4.widget.SwipeRefreshLayout-->
-        <!--android:id="@+id/swipe_refresh_layout"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent">-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
+            android:background="@color/theme_accent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="@dimen/appbar_height"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:paddingBottom="28dp" />
-    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+    </android.support.v4.widget.SwipeRefreshLayout>
 
+    <!--android:paddingTop="@dimen/appbar_height"-->
 
 
 </android.support.design.widget.CoordinatorLayout>

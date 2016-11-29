@@ -1,4 +1,4 @@
-#Tue Nov 29 11:12:37 GMT 2016
+#Tue Nov 29 17:24:34 GMT 2016
 base.0=/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_98b221f00463e73f1de7317570a41dab0a1e0fe5
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -9,6 +9,4 @@
 
     <string name="up">Up</string>
 
-    <string name="appbar_scrolling_view_behavior">AppBarLayout.ScrollingViewBehavior</string>
-
 </resources>
