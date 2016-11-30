@@ -8,12 +8,12 @@
         "source": "/Users/sorengoard/Downloads/xyzreader/XYZReader/src/main/res/layout/list_item_article.xml"
     },
     {
-        "merged": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
         "source": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/sorengoard/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",

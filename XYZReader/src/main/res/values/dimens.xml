@@ -9,8 +9,9 @@
         <dimen name="appbar_height">180dp</dimen>
         <dimen name="appbar_elevation">4dp</dimen>
 
-    <dimen name="fab_elevation">4dp</dimen>
-    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+        <dimen name="fab_diameter">56dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
 </resources>
